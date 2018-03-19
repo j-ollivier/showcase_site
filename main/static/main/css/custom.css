@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'acre-medium';
+  src: url('/static/main/fonts/acre_medium_macroman/acre-medium-webfont.woff2') format('woff2'),
+       url('/static/main/fonts/acre_medium_macroman/acre-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  background-color: #343a40;
+}
+
+body { 
+  background: url('/static/main/img/bg2-7.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*{
+  font-family: 'acre-medium', sans-serif;
+  font-size: 1.05rem;
+  color: #4f5153;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'acre-medium', sans-serif;
+  text-align: center;
+}
+
+p>a{
+  color: #9a9da0;
+  font-weight: bold;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  text-align: justify;
+}
+
+.bg-white{
+  background: white;
+}
+
+.bg-white-textured{
+  background: url('/static/main/img/seamless.png')
+}
+
+/* forms -------------------------------------------------------------------- */
+
+form{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+select{
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input{
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+textarea{
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 5rem;
+}
+
+label{
+  font-weight: bold;
+  font-size: 120%;
+}
+
+input[type="submit"]{
+  color: black;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+}
