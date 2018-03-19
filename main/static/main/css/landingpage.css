@@ -25,6 +25,14 @@
   padding: 1rem;
 }
 
+.row{
+  margin: 0;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
 .manifest-feathericon {
   width: 4rem; 
   height: 4rem; 
@@ -40,6 +48,10 @@
   border: solid 1px black;
   background-image: url('/static/main/img/seamless.png');
   border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 96%;
+  text-align: center;
 }
 
 .site-snapshot-img{
@@ -77,21 +89,16 @@
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-  .cover-div{
-    padding-top: 5vh;
-  }
+
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
-  .cover-div{
-    padding-top: 5vh;
-  }
+
 }
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
-
 }
 
 /*// Large devices (desktops, less than 1200px)*/

@@ -10,14 +10,6 @@ html{
   background-color: #343a40;
 }
 
-body { 
-  background: url('/static/main/img/bg2-7.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 *{
   font-family: 'acre-medium', sans-serif;
   font-size: 1.05rem;
@@ -120,7 +112,13 @@ input[type="submit"]{
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+  body { 
+    background: url('/static/main/img/bg2-7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -141,7 +139,13 @@ input[type="submit"]{
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
-
+  body { 
+    background: url('/static/main/img/mobile-bg2-7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 /*// Large devices (desktops, less than 1200px)*/
