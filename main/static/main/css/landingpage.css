@@ -21,11 +21,24 @@
   padding-top: 30vh;
 }
 
+.manifest-container{
+  padding: 1rem;
+}
+
+.manifest-feathericon {
+  width: 4rem; 
+  height: 4rem; 
+  stroke: currentColor; 
+  stroke-width: 2; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: none;
+}
+
 .site-snapshot{
   padding: 1rem;
   border: solid 1px black;
   background-image: url('/static/main/img/seamless.png');
-  max-width: 500px;
   border-radius: 4px;
 }
 
@@ -49,7 +62,11 @@
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+  .manifest-container{
+    max-width: 30%;
+  }
+  .site-snapshot{
+    max-width: 30%;
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
