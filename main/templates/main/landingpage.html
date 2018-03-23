@@ -1,185 +1,122 @@
-<!doctype html>
-<html lang="fr">
+{% extends "main/base.html" %}
+{% block content %}
+<!-- begin cover title -->
+<div class="cover-div">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="ROBOTS" content="index" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="Julien Ollivier">
-        <link rel="favicon" href="/static/main/favicon.ico">
-        <title>Julien Ollivier</title>
+    <div class="cover-div-content align-middle">
 
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="/static/main/css/bootstrap.min.css">
-        <!-- Custom styles for the whole website -->
-        <link rel="stylesheet" href="/static/main/css/custom.css">
-        <!-- Feather glyphicons -->
-        <link rel="stylesheet" href="/static/main/css/feather.css">
-        <!-- Custom styles for this template -->
-        <link rel="stylesheet" href="/static/main/css/landingpage.css">
-        
-    </head>
+        <h1 class="cover-title">Webdesigner</h1>
+        <h1 class="cover-title">Géomaticien</h1>
+        <p class="cover-text">Sites vitrines — e-commerces — Applications spécialisées</p>
+        <p class="cover-text">Moderne — Sécurisé — Performant</p>
+<!--         <p class="text-center">
 
-    <body>
+            <a href="prestations" class="btn btn-lg btn-info m-2 highlight-text">Prestations</a>
+            <a href="contact" class="btn btn-lg btn-info m-2 highlight-text">&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;</a>
 
-        <!-- begin navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="/"><span class="align-self-center mr-3" data-feather="feather"></span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        </p> -->
+        <p class="text-center"><a href="#myself"><span class="svg-stroke-white manifest-feathericon text-center cover-title" data-feather="chevrons-down"></span></a></p>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/prestations">Prestations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio">Avis clients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- end navbar -->
+    </div>
 
-        <!-- begin cover title -->
-        <div class="cover-div">
+</div>
+<!-- end cover title -->
 
-            <div class="cover-div-content align-middle">
+<!-- begin 'myself' excerpt -->
+<div id="myself" class="container-fluid">
 
-                <h1 class="cover-title">Webdesigner</h1>
-                <h1 class="cover-title">Géomaticien</h1>
-                <p class="cover-text">Sites vitrines — e-commerces — Applications spécialisées</p>
-                <p class="cover-text">Moderne — Sécurisé — Performant</p>
-                <p class="text-center">
+    <div class="bg-white-textured row d-flex justify-content-around pt-3 pb-3 custom-border-top custom-border-bottom">
 
-                    <a href="#prestations" class="btn btn-lg btn-info m-2 highlight-text">Prestations</a>
-                    <a href="#creations" class="btn btn-lg btn-info m-2 highlight-text">Portfolio</a>
+        <h1 class="pt-4 pb-4">Je suis webdesigner indépendant</h1>
+        <div class="row d-flex justify-content-around pt-3 pb-3">
 
-                </p>
-                <p class="text-center"><span class="manifest-feathericon text-center cover-title" data-feather="chevrons-down"></span></p>
+            <div class="manifest-container">
 
+                <p class="text-center"><span class="manifest-feathericon text-center" data-feather="trending-up"></span></p>
+                <p><b>Sites vitrines, e-commerces, blogs, apps spécialisées</b>. Mes créations sont robustes, sécurisées et visibles sur la toile.</p>
+                <p><b>Moderne et fiable</b>. J'utilise les outils les plus puissants et éprouvés du marché. Votre site est pratique, élégant et visible.</p>
+                <p><b>Compétitif</b>. Etant un jeune webdesigner, je propose des prix très raisonnables.</p>
+                <p><b>Ethique</b>. J'utilise des outils libres de droit, j'optimise votre site pour les personnes en situation de handicap, votre site consomme peu de ressources.</p>
+            
             </div>
 
-        </div>
-        <!-- end cover title -->
+            <div class="manifest-container">
+                <p class="text-center"><span class="manifest-feathericon text-center" data-feather="clock"></span></p>
+                <p><b>Réactif et disponible</b>. Je vous donne accès à toute heure à ma feuille de route. Vous pouvez suivre l'évolution de mon travail en live si vous le voulez. Je suis joignable sur de nombreuses plateformes.</p>
+                <a href="contact">
+                    <div class="row d-flex justify-content-around">
 
-        <!-- begin 'myself' excerpt -->
-        <div class="container-fluid">
-
-            <div class="bg-white-textured row d-flex justify-content-around pt-3 pb-3">
-
-                <h1 class="pt-4 pb-4">Je suis webdesigner indépendant</h1>
-                <div class="row d-flex justify-content-around pt-3 pb-3">
-
-                    <div class="manifest-container">
-
-                        <p class="text-center"><span class="manifest-feathericon text-center" data-feather="trending-up"></span></p>
-                        <p><b>Sites vitrines, e-commerces, blogs, apps spécialisées</b>. Mes créations sont robustes, sécurisées et visibiles sur la toile.</p>
-                        <p><b>Moderne et fiable</b>. J'utilise les outils les plus puissants et éprouvés du marché. Votre site est pratique, élégant et visible.</p>
-                        <p><b>Compétitif</b>. Etant un jeune webdesigner, je propose des prix très raisonnables.</p>
-                    
-                    </div>
-
-                    <div class="manifest-container">
-                        <p class="text-center"><span class="manifest-feathericon text-center" data-feather="clock"></span></p>
-                        <p><b>Réactif et disponible</b>. Je vous donne accès à toute heure à ma feuille de route. Vous pouvez suivre l'évolution de mon travail en live si vous le voulez. Je suis joignable sur de nombreuses plateformes.</p>
-                        <div class="row d-flex justify-content-around">
-
-                            <div class="text-center p-1">
-                                <p data-feather="mail"></p>
-                                <p>E-mail</p>
-                            </div>
-                            <div class="text-center p-1">
-                                <p data-feather="phone-call"></p>
-                                <p>Téléphone</p>
-                            </div>
-                            <div class="text-center p-1">
-                                <p data-feather="bell"></p>
-                                <p>Skype</p>
-                            </div>
-                            <div class="text-center p-1">
-                                <p data-feather="twitter"></p>
-                                <p>Twitter</p>
-                            </div>
-                            <div class="text-center p-1">
-                                <p data-feather="slack"></p>
-                                <p>Slack</p>
-                            </div>
-                            <div class="text-center p-1">
-                                <p data-feather="github"></p>
-                                <p>Github</p>
-                            </div>
-
+                        <div class="text-center p-1">
+                            <p data-feather="mail"></p>
+                            <p>E-mail</p>
+                        </div>
+                        <div class="text-center p-1">
+                            <p data-feather="phone-call"></p>
+                            <p>Téléphone</p>
+                        </div>
+                        <div class="text-center p-1">
+                            <p data-feather="bell"></p>
+                            <p>Skype</p>
+                        </div>
+                        <div class="text-center p-1">
+                            <p data-feather="twitter"></p>
+                            <p>Twitter</p>
+                        </div>
+                        <div class="text-center p-1">
+                            <p data-feather="slack"></p>
+                            <p>Slack</p>
+                        </div>
+                        <div class="text-center p-1">
+                            <p data-feather="github"></p>
+                            <p>Github</p>
                         </div>
 
                     </div>
-                    <div class="manifest-container">
+                </a>
+            </div>
+            <div class="manifest-container">
 
-                        <p class="text-center"><span class="manifest-feathericon text-center" data-feather="message-square"></span></p>
-                        <p><b>Je m'adapte à vos envies</b>. Je propose la solution web qui répond exactement à votre besoin.</p>
-                        <p>Je propose des sites taillés sur mesure, </p>
-                    
-                    </div>
-
-                </div>
-                <div class="text-center">
-                    <a href="/contact" class="btn btn-info btn-lg">Me contacter</a>
-                </div>
-
+                <p class="text-center"><span class="manifest-feathericon text-center" data-feather="message-square"></span></p>
+                <p><b>Je m'adapte à vos envies</b>. Je propose la solution web qui répond exactement à votre besoin. Lors de nos échanges, je vous proposerai les outils qui conviennent, sortant de cette solution unique et peu pratique du "Wordpress pour tous". Ainsi vos sites sont plus rapides et sécurisés.</p>
+                <p><b>Incertain ?</b> J'offre une période d'essai de votre site gratuite pour que vous puissiez changer d'avis à votre guise.</p>
+            
             </div>
 
         </div>
-        <!-- end 'myself' excerpt -->
+        <div class="text-center">
+            <a href="/contact" class="btn btn-info btn-lg">Me contacter</a>
+        </div>
 
-        <!-- begin portfolio excerpt -->
-        <h1 class="col-12 cover-title pt-4 pb-4">Dernières créations</h1>
-        <div id="creations" class="row d-flex justify-content-around pt-3 pb-3">
+    </div>
 
-            <div class=" site-snapshot">
+</div>
+<!-- end 'myself' excerpt -->
 
-                <a href="http://www.vaste.fr"><img class="site-snapshot-img" src="/static/main/img/logo_vaste.png"></a>
-                <p><i>Site personnel. J'ai créé le blog et le forum moi-même pour convenir à mon idée de l'expérience utilisateur. Chaque aventure possède un style différent et montre mes capacités stylistiques.</i></p>
-            
-            </div>
+<!-- begin portfolio excerpt -->
+<h1 class="col-12 cover-title pt-4 pb-4">Dernières créations</h1>
+<div id="creations" class="row d-flex justify-content-around pt-3 pb-3">
 
-            <div class=" site-snapshot">
+    <div class=" site-snapshot">
 
-                <a href="http://www.rochelab.org"><img class="site-snapshot-img" src="/static/main/img/logo_rochelab.png"></a>
-                <p><i>Un site professionnel (mais avec une touche d'humour) pour son laboratoire de chimie organique.</i></p>
-            
-            </div>
+        <a target="_blank" href="http://www.vaste.fr"><img class="site-snapshot-img" src="/static/main/img/logo_vaste.png"></a>
+        <p><i>Site personnel. J'ai créé le blog et le forum moi-même pour convenir à mon idée de l'expérience utilisateur. Chaque aventure possède un style différent et montre mes capacités stylistiques.</i></p>
+    
+    </div>
 
-            <div class=" site-snapshot">
+    <div class=" site-snapshot">
 
-                <a href="http://www.sonov.fr"><img class="site-snapshot-img" src="/static/main/img/logo_sonov.png"></a>
-                <p><i>Une ambiance moderne, cosy et ronde pour un blog de musique accueillant. Après avoir créé l'original, je suis missionné pour le moderniser.</i></p>
-            
-            </div>
+        <a target="_blank" href="http://www.rochelab.org"><img class="site-snapshot-img" src="/static/main/img/logo_rochelab.png"></a>
+        <p><i>Un site professionnel (mais avec une touche d'humour) pour son laboratoire de chimie organique.</i></p>
+    
+    </div>
 
-        </div> 
-        <!-- end portfolio excerpt -->
+    <div class=" site-snapshot">
 
-    </body>
+        <a target="_blank" href="http://www.sonov.fr"><img class="site-snapshot-img" src="/static/main/img/logo_sonov.png"></a>
+        <p><i>Une ambiance moderne, cosy et ronde pour un blog de musique accueillant. Après avoir créé l'original, je suis missionné pour le moderniser.</i></p>
+    
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/static/main/js/jquery-3.3.1.min.js"></script>
-    <script src="/static/main/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/static/main/js/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- feather js -->
-    <script src="/static/main/js/feather.js"></script>
-    <script>
-      feather.replace()
-    </script>
-</html>
+</div> 
+<!-- end portfolio excerpt -->
+{% endblock %}

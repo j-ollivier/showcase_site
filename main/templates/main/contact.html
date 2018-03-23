@@ -1,0 +1,82 @@
+{% extends "main/base.html" %}
+{% block content %}
+
+<!-- begin contact manifest  -->
+<div class="container-fluid">
+
+    <div class="bg-white-textured row d-flex justify-content-around pt-3 pb-3 custom-border-bottom custom-border-top mt-5 mb-5">
+
+        <h1 class="pt-4 pb-4">Me contacter</h1>
+        <div class="row d-flex justify-content-around pt-3 pb-3">
+
+            <div class="manifest-container">
+
+                <p class="text-center">
+                    <a href="tel:+33 669 036 648"><span class="manifest-feathericon text-center" data-feather="phone-call"></span></a>
+                </p>
+                <p>Cliquez sur l'icône <span class="align-bottom" data-feather="phone-call"></span> pour lancer l'appli de votre choix (appel SMS, skype ou whatsapp) et commencer une conversation. Je suis disponible et réactif.</p>
+                <p>Vous pouvez aussi télécharger <a href="static/main/other/julienollivier.vcf">mon contact complet</a> pour m'ajouter à votre liste de contacts.</p>
+            
+            </div>
+            <div class="manifest-container">
+
+                <p class="text-center" data-toggle="collapse" data-target="#display_message_form" aria-expanded="false" aria-controls="collapseExample" style="cursor: pointer;">
+                    <span class="manifest-feathericon text-center" data-feather="mail"></span>
+                </p>
+                <p>Cliquez sur l'icône <span class="align-bottom" data-feather="mail"></span> pour m'envoyer un message direct. Vous pouvez aussi m'envoyer un mail via <a href="mailto:pro.jollivier@gmail.com">pro.jollivier@gmail.com</a>.</p>
+                <p>Je m'engage à vous répondre dans les 24 heures.</p>
+			    <div class="collapse" id="display_message_form">
+
+			        <form id="contact_form" action="/contact" method="post">
+
+			            {% csrf_token %}
+			            {{ contact_form.as_p }}
+			            <input id= "contact_form_submit" type="submit" value="Envoyer le message" />
+
+			        </form>
+
+			    </div>
+			    {% for message in messages %}
+			    <div class="alert alert-success" role="alert">{{ message }}</div>
+			    {% endfor %}
+            
+            </div>
+
+            <div class="manifest-container">
+                <p class="text-center">
+                    <a href="tel:+33 669 036 648"><span class="manifest-feathericon text-center" data-feather="star"></span></a>
+                </p>
+                <p><b>Je suis présent sur la toile</b>. Vous pouvez me trouver sur les sites suivants, bien qu'ils soient présents pour que vous puissiez en apprendre plus sur ma société.</p>
+                <p>N'hésitez pas à utiliser mon contenu s'il est sous licence libre !</p>
+                <div class="row d-flex justify-content-around">
+
+                    <div class="text-center p-1">
+                        <p data-feather="twitter"></p>
+                        <p><a target="_blank" href="https://twitter.com/j_0llivier">Twitter</a></p>
+                    </div>
+                    <div class="text-center p-1">
+                        <p data-feather="github"></p>
+                        <p><a target="_blank" href="https://github.com/j-ollivier">Github</a></p>
+                    </div>
+                    <div class="text-center p-1">
+                        <p data-feather="slack"></p>
+                        <p>Slack</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid text-center gmap_contact pt-4">
+
+        <iframe height= "600" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-1.5919446945190432%2C47.23145904089759%2C-1.5770101547241213%2C47.24442527238161&amp;layer=mapnik&amp;marker=47.237942553260964%2C-1.584477424621582"></iframe><br/><small>
+
+    </div>
+
+</div>
+<!-- end contact manifest -->
+
+{% endblock %}
