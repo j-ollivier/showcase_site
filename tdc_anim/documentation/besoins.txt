@@ -4,8 +4,8 @@ Client
 		Association 1759ABC
 	Pilotage
 		Gilles Renaudeau
-			gilles.renaudeau@gmail.com
-			06 08 23 05 57
+			email /***
+			tel /***
 ~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.
 Prestataire
 	Dénomination
