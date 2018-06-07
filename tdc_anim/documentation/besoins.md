@@ -1,70 +1,70 @@
 # Client
 ---
 ## Dénomination
-	* Association 1759ABC
+	Association 1759ABC
 ## Pilotage
-	* Gilles Renaudeau
-		* gilles.renaudeau@gmail.com
-		* 06 08 23 05 57
+	Gilles Renaudeau
+		gilles.renaudeau@gmail.com
+		06 08 23 05 57
 ## Prestataire
 ### Dénomination
-	* Julien Ollivier
+	Julien Ollivier
 ### Formation
-	* Maîtrise en gestion des habitats et des bassins versants à Rennes
-	* Maîtrise de biologie et gestion de l'environnement à Nantes
-	* Master de géomatique (géographie informatique) à Nantes
+	Maîtrise en gestion des habitats et des bassins versants à Rennes
+	Maîtrise de biologie et gestion de l'environnement à Nantes
+	Master de géomatique (géographie informatique) à Nantes
 ### Activité
-	* Géomatique
-	* Webdesign
+	Géomatique
+	Webdesign
 ### Principes
-	* Outils FOSS (Free & open-source software)
-	* Sensibilité au monde associatif
-	* Sensibilité à l'environnement
-	* Connaissances en géographie
+	Outils FOSS (Free & open-source software)
+	Sensibilité au monde associatif
+	Sensibilité à l'environnement
+	Connaissances en géographie
 # Vue d’ensemble du besoin
 ## Type de création demandée
-		Animation 3D
-		Evolution diachronique du trait de côte
-			Montée des eaux
+	Animation 3D
+	Evolution diachronique du trait de côte
+		Montée des eaux
 ## Contexte
-		Exposition itinérante de sensibilisation
-			Interventions orales
-			Livret d'accompagnement
-			Projection de l'animation 3D
+	Exposition itinérante de sensibilisation
+		Interventions orales
+		Livret d'accompagnement
+		Projection de l'animation 3D
 ## Enjeu
-		Mettre en évidence l’évolution du trait de côte et ses conséquences
-			Impact sur le patrimoine
-				Naturel
-				Anthropique
-			Dégradation de l’activité économique
-			Mise en danger d’activités
-			Evolution du risque de submersion
-				Mise en danger des populations
-				Mise en danger des installations
-		Sensibiliser les spectateurs
-			Montrer des messages clairs et universels
-				"Simple mais pas simpliste"
-			Etre crédible face aux connaisseurs
-				Documentations
-				Sources
-			Motiver leur investissement
-			Rester positif
-			Montrer l'évolution positive du sujet
+	Mettre en évidence l’évolution du trait de côte et ses conséquences
+		Impact sur le patrimoine
+			Naturel
+			Anthropique
+		Dégradation de l’activité économique
+		Mise en danger d’activités
+		Evolution du risque de submersion
+			Mise en danger des populations
+			Mise en danger des installations
+	Sensibiliser les spectateurs
+		Montrer des messages clairs et universels
+			"Simple mais pas simpliste"
+		Etre crédible face aux connaisseurs
+			Documentations
+			Sources
+		Motiver leur investissement
+		Rester positif
+		Montrer l'évolution positive du sujet
 ## Etendue géographique
-		Estuaire de la Vilaine > Bassin de Bourgneuf, au nord-ouest Damgan,  au sud-est Bourgneuf-en-Retz
-		Distance de 100km nord-sud
-		Distance de 60 km ouest-est
-		Emprise de 6000km²
+	Estuaire de la Vilaine > Bassin de Bourgneuf, au nord-ouest Damgan,  au sud-est Bourgneuf-en-Retz
+	Distance de 100km nord-sud
+	Distance de 60 km ouest-est
+	Emprise de 6000km²
 ## Etendue temporelle
-		Fin du würmien (-20ka) > présent
-		Période de 22000 ans
+	Fin du würmien (-20ka) > présent
+	Période de 22000 ans
 ## Public
-		Elus
-		Touristes
-		Acteurs publics
-		Collégien-nes
-		Lycéen-nes
+	Elus
+	Touristes
+	Acteurs publics
+	Collégien-nes
+	Lycéen-nes
 ## Eléments supplémentaires
-		Permettre une ouverture sur le futur
-			Implications
-			Risques
+	Permettre une ouverture sur le futur
+		Implications
+		Risques
