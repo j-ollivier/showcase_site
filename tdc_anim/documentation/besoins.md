@@ -1,37 +1,37 @@
-#Client
+# Client
 ---
-##Dénomination
-Association 1759ABC
-##Pilotage
-Gilles Renaudeau
-	gilles.renaudeau@gmail.com
-	06 08 23 05 57
-##Prestataire
-###Dénomination
-	Julien Ollivier
-###Formation
-		Maîtrise en gestion des habitats et des bassins versants à Rennes
-		Maîtrise de biologie et gestion de l'environnement à Nantes
-		Master de géomatique (géographie informatique) à Nantes
-###Activité
-		Géomatique
-		Webdesign
-###Principes
-		Outils FOSS (Free & open-source software)
-		Sensibilité au monde associatif
-		Sensibilité à l'environnement
-		Connaissances en géographie, 
-#Vue d’ensemble du besoin
-##Type de création demandée
+## Dénomination
+	* Association 1759ABC
+## Pilotage
+	* Gilles Renaudeau
+		* gilles.renaudeau@gmail.com
+		* 06 08 23 05 57
+## Prestataire
+### Dénomination
+	* Julien Ollivier
+### Formation
+	* Maîtrise en gestion des habitats et des bassins versants à Rennes
+	* Maîtrise de biologie et gestion de l'environnement à Nantes
+	* Master de géomatique (géographie informatique) à Nantes
+### Activité
+	* Géomatique
+	* Webdesign
+### Principes
+	* Outils FOSS (Free & open-source software)
+	* Sensibilité au monde associatif
+	* Sensibilité à l'environnement
+	* Connaissances en géographie
+# Vue d’ensemble du besoin
+## Type de création demandée
 		Animation 3D
 		Evolution diachronique du trait de côte
 			Montée des eaux
-##Contexte
+## Contexte
 		Exposition itinérante de sensibilisation
 			Interventions orales
 			Livret d'accompagnement
 			Projection de l'animation 3D
-##Enjeu
+## Enjeu
 		Mettre en évidence l’évolution du trait de côte et ses conséquences
 			Impact sur le patrimoine
 				Naturel
@@ -50,21 +50,21 @@ Gilles Renaudeau
 			Motiver leur investissement
 			Rester positif
 			Montrer l'évolution positive du sujet
-##Etendue géographique
+## Etendue géographique
 		Estuaire de la Vilaine > Bassin de Bourgneuf, au nord-ouest Damgan,  au sud-est Bourgneuf-en-Retz
 		Distance de 100km nord-sud
 		Distance de 60 km ouest-est
 		Emprise de 6000km²
-##Etendue temporelle
+## Etendue temporelle
 		Fin du würmien (-20ka) > présent
 		Période de 22000 ans
-##Public
+## Public
 		Elus
 		Touristes
 		Acteurs publics
 		Collégien-nes
 		Lycéen-nes
-##Eléments supplémentaires
+## Eléments supplémentaires
 		Permettre une ouverture sur le futur
 			Implications
 			Risques
