@@ -13,7 +13,7 @@
 
 /* Character Mapping Method */
  
-[data-icon]:before {
+/*[data-icon]:before {
   display: inline-block;
   font-family: "feather";
   content: attr(data-icon);
@@ -25,11 +25,11 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}*/
 
 /* CSS Class Mapping Method */
  
-[class^="icon-"],
+/*[class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
   font-family: "feather";
@@ -41,7 +41,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}*/
 
 .icon-eye:before {
   content: "\e000";

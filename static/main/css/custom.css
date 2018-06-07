@@ -12,8 +12,12 @@ html{
 
 *{
   font-family: 'acre-medium', sans-serif;
-  font-size: 1.05rem;
   color: #4f5153;
+}
+
+.btn{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, h6{

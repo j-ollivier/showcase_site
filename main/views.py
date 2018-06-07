@@ -13,7 +13,7 @@ def LandingPage(request):
     context = {
         'page_title': 'Julien Ollivier',
     }
-    template = loader.get_template('main/landingpage.html')
+    template = loader.get_template('main/index.html')
     return HttpResponse(template.render(context, request))
 
 #####################################################################
@@ -78,4 +78,15 @@ def License(request):
         'page_title': 'License',
     }
     template = loader.get_template('main/license.html')
+    return HttpResponse(template.render(context, request))
+
+#####################################################################
+def Home(request):
+    '''
+        Test for the new theme
+    '''
+    context = {
+        'page_title': 'Julien Ollivier',
+    }
+    template = loader.get_template('main/home.html')
     return HttpResponse(template.render(context, request))
